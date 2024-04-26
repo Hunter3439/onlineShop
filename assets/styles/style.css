@@ -1,0 +1,400 @@
+
+body
+{
+    font-family: 'Roboto';
+} 
+
+.noti 
+{ 
+    padding: 50px 0 ;
+    margin:0 auto ;
+    width: 90% ;
+    display: flex;
+    justify-content: center;
+}
+.noti  h1 
+{ 
+    font-size: 100px ;
+    color: #2E2E2E;
+}
+.links 
+{ 
+    border-bottom: 1px solid transparent ;
+    transition: 400ms ;
+}
+.links:hover  
+{
+    border-bottom: 1px solid #2E2E2E ;   
+} 
+
+body
+{
+    font-family: 'Roboto';
+    margin:  0 auto ;
+} 
+.all
+{
+    display: flex;
+    justify-content: center;
+}
+.menu 
+{ 
+    width: 70%; 
+    display: flex ; 
+    flex-direction: row ;
+    justify-content: space-between;
+    align-items: center ;
+    margin: 0 auto ;
+    padding: 50px 0 ;
+}
+
+.menu .nav-bar 
+{
+    width:60% ; 
+    display: flex ;
+    justify-content: space-between ;
+}
+.menu .nav-bar  a 
+{ 
+    text-decoration: none; 
+    color : #2E2E2E ; 
+    font-size: 20px ;
+
+}
+.links 
+{ 
+    border-bottom: 1px solid transparent ;
+    transition: 400ms ;
+}
+.links:hover  
+{
+    border-bottom: 1px solid #2E2E2E ;   
+} 
+.gpu
+{   width: 80%;
+    padding-top: 50PX ;
+    margin: 0 auto ;
+    display: flex; 
+    flex-direction: column ;
+    align-items: center;
+}
+.gpu .cards
+{ 
+    width: 100%;
+    display: flex ;
+    flex-wrap: wrap ;
+    justify-content: space-between;
+}
+.gpu .cards .card 
+{   
+    margin:  0 auto ;
+    width: 30%;
+    margin-bottom: 20px ;
+    border: 1px solid rgba(158, 156, 156, 0.837);
+    border-radius: 20px 20px 0 0;
+    text-align: center ; 
+    display: flex;
+    flex-direction: column ;
+    align-items: center ;
+    padding: 50px 0 ;
+} 
+.gpu .cards .card .container 
+{   
+
+    width: 100% ;
+    background-size: cover ;
+    
+}
+.acc 
+{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 10% ;
+
+}
+.container img
+{ 
+    width:250px ;
+    height:  180px ;
+}
+.acc .admin a
+{ 
+    text-decoration: none;    
+}
+.cpu .wrapper 
+{ 
+    display: flex ;
+    flex-direction: column; 
+    align-items: center;
+    width: 90% ;
+    text-align: center ;
+    margin: 0 auto ;
+}
+.cpu .wrapper h1 
+{ 
+    margin-bottom: 40px ;
+}
+.cpu .wrapper .cards 
+{ 
+    
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
+    align-items: center ;
+    flex-wrap: wrap ;
+}
+.cpu .wrapper .cards .card
+{ 
+    width: 30% ;
+    margin-bottom: 50px ;
+    border: 1px solid rgba(158, 156, 156, 0.837);
+    border-radius: 20px 20px 0 0 ;
+    padding: 15px 0 ;
+}
+.cpu .wrapper .cards .card .container
+{ 
+
+    background-size: cover;
+    width: 100% ;
+    padding:280px 0 ;
+}
+.mBoard .wrapper 
+{ 
+    width: 90% ;
+    display:  flex ;
+    flex-direction: column;
+    align-items: center ;
+    text-align: center;
+    margin:  0 auto ;
+}
+.mBoard .wrapper h1 
+{ 
+    margin-bottom: 50px ;
+}
+.mBoard .wrapper .cards 
+{ 
+    display: flex ;
+    flex-direction: row ;
+    align-items: center;
+    justify-content: space-between  ;
+    flex-wrap: wrap;
+}
+.mBoard .wrapper .cards .card 
+{ 
+    width: 30% ;
+    margin-bottom: 50px ;
+    border: 1px solid rgba(158, 156, 156, 0.837);
+    border-radius: 20px 20px 0 0 ;
+    padding: 50px 0 ;
+}
+.mBoard .wrapper .cards .card .container 
+{ 
+
+    background-size: cover;
+    width: 100% ;
+    padding: 180px 0 ;
+}
+.orders
+{      
+    display: flex ;
+    flex-direction: column ;
+    align-items: center ;
+    text-align: center ;
+    margin-top: 70px ;
+    text-align: center ;
+}
+.orders .wrapper 
+{ 
+    width: 90% ;
+    display: flex ;
+    flex-direction: column ;
+    align-items: flex-start;
+    margin: 0 auto ;
+    border: 2px solid rgba(158, 156, 156, 0.837);
+    border-radius: 20px ;
+    padding: 150px 0 ;
+}
+.orders .wrapper .order-bar
+{   
+    width: 90% ;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+
+}
+.orders .wrapper .order-bar .buy-list .buy-card
+{   
+    width: 100% ;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px  ;
+    border: 1px solid rgba(158, 156, 156, 0.837) ;
+    border-radius: 20px ;
+    margin-bottom: 20px ;
+}
+.buy-card .btn
+{ 
+    display: none;
+}
+.links
+{ 
+    cursor: pointer;
+}
+.buy-ready 
+{ 
+    width: 100% ;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px  ;
+    border: 1px solid rgba(158, 156, 156, 0.837) ;
+    border-radius: 20px ;
+    margin-bottom: 20px ;
+}
+.orders .wrapper .order-bar .buy-list .buy-card .container
+{   
+    width: 50px ;
+    height: 50px ;
+    background-size: cover;
+}
+.orders .wrapper .order-bar .buy-list .buy-card .moves .price 
+{ 
+    margin-bottom: 20px ;
+}
+.buy svg 
+{ 
+    width: 35px ;
+    height: 35px ;
+}
+.buy-moves
+{ 
+    margin: 0 auto;
+    width:10% ;
+}
+.buy-moves .buy
+{ 
+    display: flex ;
+    flex-direction: row ;
+    align-items: center ;
+    background-color: transparent;
+    border: 2px solid rgb(8, 196, 8);
+    border-radius: 20px ;
+    justify-content: space-around;
+    transition: 400ms ;
+} 
+.buy-moves .buy:hover
+{ 
+    background-color: rgb(8, 196, 8);
+    border: 2px solid transparent;
+    scale: 1.1;
+}
+.buy-moves .buy h2
+{ 
+    user-select: none ;
+}
+.orders
+{ 
+    display: none ;
+}
+.show 
+{   
+    display: flex;
+}
+.hide
+{ 
+    display: none;
+}
+@media (max-width:650px ) 
+{
+    .menu
+    {
+        width: 100% ; 
+        font-size: 12px ;
+        align-items: center;
+        display: flex;
+        text-align: center;
+        gap : 40px 
+    }
+    main 
+    {
+        width: 90%;
+        display: flex ; 
+        flex-direction: column ;
+        align-items: center ;
+        margin:  0 auto ;
+    }
+    .container img 
+    { 
+        width: 90px ;
+        height: 60px ;
+    }
+    .noti h1 
+    { 
+        font-size: 20px ;
+    }
+    h1
+    { 
+        text-align: center ;
+        font-size: 30px ;
+    }
+    .gpu , .cpu .cards .card h3 , h4 
+    { 
+        margin: 0;
+        font-size: 13px ;
+        text-overflow: hidden ;
+    }
+    .gpu , .cpu .cards .card
+    { 
+        width: 30%;
+        margin-bottom: 50px;
+        border: 1px solid rgba(158, 156, 156, 0.837);
+        border-radius: 20px 20px 0 0;
+        padding: 15px 0;
+    }
+    .cpu .wrapper .cards .card .container
+    { 
+        padding:  0 ;
+    }
+    .cpu .cards .card img
+    { 
+        width: 90px ;
+        height: 60px ;
+    }
+    .text
+    { 
+        padding: 20px 0 ;
+    }
+    .card
+    { 
+        gap:30px ;
+    }
+    .orders .wrapper  .order-bar .buy-list .buy-card
+    { 
+        padding:  10PX ;
+        width: 80% ;
+    }
+    .orders 
+    { 
+        width: 100% ;
+    }
+    .orders .wrapper  .order-bar .buy-moves
+    { 
+        width: 50%;
+    }
+    .orders .wrapper  .order-bar .buy 
+    { 
+        width: 100% ;
+    }
+    .buy-card .container img 
+    { 
+        width: 40px ; 
+        height: 40px ;
+    }
+}
